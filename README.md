@@ -1,10 +1,15 @@
 # **Financial Document Digitization**
 
 ## Table of Contents
+
 1.[Introduction](#Introduction) 
+
 2.[Solution Architecture](#SolutionArchitecture) 
+
 3.[Tools/Models Used](#Tools/ModelsUsed) 
+
 4.[Example](#Example) 
+
 5.[Results](#Results) 
 
 <a id="Introduction"></a>
@@ -38,7 +43,7 @@ Following a thorough review of the available pre-trained models and custom-train
 The technique for retrieving results from the pre-trained layout model is as follows. We attempted to analyze the document using the layout model via an API call. Finally, we used post-processing code to extract fields and values from API responses. The findings of the 20 publications were merged, and the accuracy, precision, and recall of the model results were calculated.
 
 Based on the results after post processing the accuracy metrics are as follows:
-| First Header  | Second Header |
+| Metric  | Value |
 | ------------- | ------------- |
 | Average Precision  | 88.08% |
 | Average Recall  | 81.87% |
