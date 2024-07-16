@@ -2,8 +2,8 @@
 
 ## Table of Contents
 1.[Introduction](#Introduction) 
-2.[Solution Architecture](#Solution Architecture) 
-3.[Tools/Models Used](#Tools/Models Used) 
+2.[Solution Architecture](#SolutionArchitecture) 
+3.[Tools/Models Used](#Tools/ModelsUsed) 
 4.[Example](#Example) 
 5.[Results](#Results) 
 
@@ -11,14 +11,14 @@
 ## Introduction
 In the context of digitizing documents efficiently, this project aims to evaluate and implement Azure AI Document Intelligence tools. The goal is to assess the capabilities and performance of Azure's Document Recognition tool for processing documents. The project scope includes processing 20 documenmts to validate the tool's efficiency and accuracy.
 
-<a id="Solution Architecture"></a>
+<a id="SolutionArchitecture"></a>
 ## Solution Architecture
 Azure AI Document Intelligence is a package of services that helps to process and analyze documents more efficiently. It offers a diverse set of models, enabling us to integrate intelligent document processing into our apps and operations. Azure Form Recognizer is a service within Azure AI Document Intelligence that handles form processing. It uses complex machine learning models to automatically evaluate various types of forms and documents, extract key-value pairs, tables, and text, and then organize the results into structured data. We attempted to work on the following models using the generic architecture approach, among the numerous prebuilt and document analysis models available in Azure AI Document Intelligence.
 
 ### Architecture Diagram
 ![image](https://github.com/user-attachments/assets/8e317ca3-97f2-4ed4-be41-96676270caed)
 
-<a id="Tools/Models Used"></a>
+<a id="Tools/ModelsUsed"></a>
 ## Tools/Models Used
 ### Azure Form Recognizer
 Azure Form Recognizer is designed to be useful for a wide range of businesses and use cases where document processing and information extraction are crucial, providing powerful capabilities for automating and streamlining these operations effectively. It analyzes documents automatically, extracting text, key-value pairs, tables, and other structured data items. It recognizes the layout of documents, including headers, footers, tables, and data sections, in order to accurately extract information. We can train custom machine learning models to recognize document layouts and fields particular to specific companies, increasing the accuracy of specialized papers. It supports a wide range of documents, including invoices, receipts, purchase orders, insurance documents, tax forms, and more.
@@ -38,7 +38,8 @@ Following a thorough review of the available pre-trained models and custom-train
 The technique for retrieving results from the pre-trained layout model is as follows. We attempted to analyze the document using the layout model via an API call. Finally, we used post-processing code to extract fields and values from API responses. The findings of the 20 publications were merged, and the accuracy, precision, and recall of the model results were calculated.
 
 Based on the results after post processing the accuracy metrics are as follows:
-
+| First Header  | Second Header |
+| ------------- | ------------- |
 | Average Precision  | 88.08% |
 | Average Recall  | 81.87% |
 | Average F1-Score  | 84.86% |
