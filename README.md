@@ -1,4 +1,5 @@
 ## Financial Document Digitization
+** Introduction **
 In the context of digitizing documents efficiently, this project aims to evaluate and implement Azure AI Document Intelligence tools. The goal is to assess the capabilities and performance of Azure's Document Recognition tool for processing documents. The project scope includes processing 20 documenmts to validate the tool's efficiency and accuracy.
 
 ## Approach
