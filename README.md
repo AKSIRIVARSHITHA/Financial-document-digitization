@@ -35,7 +35,7 @@ The layout model is used to analyze documents in order to detect and extract str
 
 <a id="Example"></a>
 ## Example
-![image](https://github.com/user-attachments/assets/fefc8808-6232-4e03-af2e-7dc53dc6cdfb)
+![READ](https://github.com/user-attachments/assets/f5910a3f-4858-41c5-92da-fd751a256258)
 
 <a id="Results"></a>
 ## Results
