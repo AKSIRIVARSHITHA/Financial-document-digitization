@@ -54,7 +54,7 @@ jupyter notebook
 ```
 
 After running the command, your default web browser should open with the Jupyter Notebook interface.
-Navigate to Formatted_API_Results_Extraction.ipynb file and click on it to open and run the notebook. After you get the API results now navigate to Formatted_Post_Processing. file and click on it to open and run the notebook
+Navigate to "Formatted_API_Results_Extraction.ipynb" file and click on it to open and run the notebook. After you get the API results now navigate to "Formatted_Post_Processing.ipynb" file and click on it to open and run the notebook
 
 
 <a id="Example"></a>
