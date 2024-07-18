@@ -48,6 +48,14 @@ The layout model is used to analyze documents in order to detect and extract str
 ```bash
 pip install azure-ai-formrecognizer
 ```
+#### Step 2: Run Jupyter Notebook
+```bash
+jupyter notebook
+```
+
+After running the command, your default web browser should open with the Jupyter Notebook interface.
+Navigate to Formatted_API_Results_Extraction.ipynb file and click on it to open and run the notebook. After you get the API results now navigate to Formatted_Post_Processing. file and click on it to open and run the notebook
+
 
 <a id="Example"></a>
 ## Example
