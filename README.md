@@ -8,9 +8,11 @@
 
 3.[Tools/Models Used](#Tools/ModelsUsed) 
 
-4.[Example](#Example) 
+4.[Installation](#Installation) 
 
-5.[Results](#Results) 
+5.[Example](#Example) 
+
+6.[Results](#Results) 
 
 <a id="Introduction"></a>
 ## Introduction
@@ -32,6 +34,20 @@ While investigating the use of a bespoke neural model, we discovered that it cou
 
 ### Layout Model in Azure Form Recognizer
 The layout model is used to analyze documents in order to detect and extract structural features like text, tables, and other content regions while leaving out semantic meaning or key-value pairs. It focuses on comprehending a document's physical arrangement and spatial relationships. Detects and segments various parts on a page, such as headers, footers, body text, tables, and other graphical elements. Extracts text and other stuff from specified locations while retaining spatial layout and organization. 
+
+<a id="Installation"></a>
+## Installation
+### Prerequisites
+- Azure subscription with Form Recognizer service
+- Python 3.x
+- pip (Python package installer)
+
+### Installation Steps
+
+#### Step 1: Install Azure SDK for Python
+```bash
+pip install azure-ai-formrecognizer
+```
 
 <a id="Example"></a>
 ## Example
