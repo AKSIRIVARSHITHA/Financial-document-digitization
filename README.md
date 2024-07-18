@@ -39,13 +39,13 @@ The layout model is used to analyze documents in order to detect and extract str
 ## Installation
 ### Prerequisites
 - Azure subscription with Form Recognizer service
-- Python 3.x
+- Python 3.11.3
 
 ### Installation Steps
 
 #### Step 1: Install Azure SDK for Python
 ```bash
-pip install azure-ai-formrecognizer
+pip install azure-ai-formrecognizer==3.3.2
 ```
 #### Step 2: Run Jupyter Notebook
 ```bash
