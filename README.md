@@ -40,7 +40,6 @@ The layout model is used to analyze documents in order to detect and extract str
 ### Prerequisites
 - Azure subscription with Form Recognizer service
 - Python 3.x
-- pip (Python package installer)
 
 ### Installation Steps
 
