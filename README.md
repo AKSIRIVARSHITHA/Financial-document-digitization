@@ -10,9 +10,7 @@
 
 4.[Installation](#Installation) 
 
-5.[Example](#Example) 
-
-6.[Results](#Results) 
+5.[Results](#Results) 
 
 <a id="Introduction"></a>
 ## Introduction
@@ -57,11 +55,11 @@ Navigate to "Formatted_API_Results_Extraction.ipynb" file and click on it to ope
 
 
 <a id="Example"></a>
-## Example
+## Results
 ![READ](https://github.com/user-attachments/assets/f5910a3f-4858-41c5-92da-fd751a256258)
 
 <a id="Results"></a>
-## Results
+
 Following a thorough review of the available pre-trained models and custom-trained models, we propose using pretrained document analysis models. These pretrained models enable us to take advantage of pre-learned features and proven architectures, resulting in faster development and higher accuracy. This method takes advantage of the most recent advances in document analysis to ensure consistent performance while saving time and resources. We also propose that the layout model be adopted going forward, as it appears to produce the best results based on our review of the various models. 
 The technique for retrieving results from the pre-trained layout model is as follows. We attempted to analyze the document using the layout model via an API call. Finally, we used post-processing code to extract fields and values from API responses. The findings of the 20 publications were merged, and the accuracy, precision, and recall of the model results were calculated.
 
